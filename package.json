@@ -1,0 +1,34 @@
+{
+  "name": "telegram-chat-gtp-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon --exec ts-node index.ts",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.7",
+    "docxtemplater": "^3.37.9",
+    "dotenv": "^16.0.3",
+    "mammoth": "^1.6.0",
+    "node-telegram-bot-api": "^0.63.0",
+    "nodemon": "^2.0.7",
+    "openai": "^4.28.4",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2",
+    "typescript": "^5.4.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "@types/node-telegram-bot-api": "^0.64.3",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.4.2"
+  }
+}
